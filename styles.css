@@ -1,0 +1,429 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+a:link {
+	color: #ff4200;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #660000;
+}
+
+a:visited {
+	color: #ff4200;
+}
+.error {
+    color: #FF0000;
+}
+.meno {
+    color: #660000;
+  font-weight: bold;
+  line-height: 1.5;
+}
+/*
+*
+{
+border: 0;
+margin: 0;
+}
+*/
+
+body
+{
+    font: 13px Georgia, "Times New Roman", Times, serif;
+    line-height: 135%;
+ 	color: #151515;
+/*	background: #c07f2b url(images/bg22.png) repeat-x top;         #c07f2b    bg.jpg  repeat-x */
+	background: #c07f2b url(images/pozadie.jpg) repeat-x top fixed;    /*     #c07f2b    bg.jpg  repeat-x */
+
+}
+
+#main
+{
+margin: 0 auto;
+width: 990px;
+padding-top: 0px;
+}
+
+#header
+{
+width: 990px;
+margin: 0 auto;
+height: 170px;
+background: url(images/header20.jpg) no-repeat center bottom;        /*header.png     */
+margin-bottom: 12px;
+}
+
+#header2
+{
+width: 980px;
+margin: 0 auto;
+height: 273px;
+background: url(images/header2.html) no-repeat center bottom;
+margin-bottom: 4px;
+}
+
+#logo
+{
+padding-left: 100px;
+text-align: left;
+padding-top: 0px;
+/* background: url(images/logo.jpg) no-repeat;    */
+margin-left: 30px;
+height: 112px;
+font-size: 25px;
+color: #FFCC66;
+font-weight: bold;
+}
+
+#logo H2 a
+{
+font-size: 20px;
+}
+
+#buttons
+{
+width: 990px;
+height: 44px;
+margin: 0 auto;
+background: url(images/menu.png) no-repeat;
+}
+
+#buttons ul {
+float:none;
+margin: 0 auto;
+padding-left: 18px;
+}
+
+#buttons li {
+	display: inline;
+}
+
+#buttons a {
+display: block;
+    float: left;
+	width: 136px;
+	height: 30px;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFF99;
+	font-weight: bold;
+	font-size: 14px;
+padding-top: 14px;
+    margin-top: 0px;
+}
+
+#buttons a:hover {
+	color:#C0C0C0;
+	background:url(images/munegover.jpg);
+
+}
+
+#contop{
+	margin-top: 6px;
+	background:url(images/contop.png) no-repeat top center;
+    width: 990px;
+	height: 17px;
+
+}
+
+#conbot{
+	background:url(images/conbot.png) no-repeat top center;
+	height: 25px;
+    width: 990px;
+}
+
+#content
+{
+width: 990px;
+background: url(images/conbg.png) center repeat-y;
+}
+
+/*
+#conleft{
+	float:left;
+	width: 210px;
+	padding-left: 25px;
+}
+*/
+#conleft{
+	float:left;
+	width: 732px;                /*  725  */
+	padding-left: 18px;          /*  20  */
+}
+
+
+#left
+{
+width: 470px;
+background:url(images/centerbg.jpg) repeat-y right;
+float:right;
+}
+
+
+
+.text{
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-right: 20px;
+}
+
+.text a:hover{
+	text-decoration: none;
+	color: #660066;
+    font-weight: bold;
+}
+
+#left H1
+{
+color: #9f0000;
+font-size: 28px;
+padding-top: 10px;
+padding-left: 25px;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-weight: normal;
+}
+
+.pred{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 0px;
+	padding-top: 4px;
+	margin-bottom: 3px;
+color: #660000;
+}
+
+#left a
+{
+ color: #ff4200;
+ font-weight:bold;
+}
+
+#left a:hover{
+	text-decoration: none;
+	color: #353535;
+}
+
+#left a:visited {
+	color: #3a7854;
+}
+
+.date {
+	margin-top: 25px;
+	color: #ff8d00;
+	font-size: 11px;
+	padding: 8px;
+	margin-bottom: 10px;
+	font-weight:bold;
+	background: url(images/datebg.jpg) no-repeat;
+	height: 12px;
+}
+
+.footer2 {
+	margin-top: 8px;
+	color: #ff8d00;
+	font-size: 10px;
+	padding: 8px;
+	margin-bottom: 8px;
+	font-weight:bold;
+	background: url(images/footer.png) no-repeat;
+	height: 12px;
+}
+
+.novinky {
+    margin-top: 5px;
+    margin-bottom: 5px;
+	color: #660000;
+	font-size: 10px;
+	padding: 4px;
+    font-weight:bold;
+	background: url(images/novinky.png) no-repeat;
+	height: 38px;
+}
+
+.date a {
+	color: #ff4200;
+	text-decoration:none;
+}
+
+.dateleft{
+	background:url(images/timeicon.gif) no-repeat left;
+	padding-left: 20px;
+
+	color: #ff4200;
+}
+
+.dateright{
+	float:right;
+	padding-right: 200px;
+	text-align:right;
+	
+}
+
+#post{
+	padding-left: 30px;
+}
+
+#right
+{
+width: 230px;                 /*  235  */
+float:right;
+padding-left: 10px;
+}
+
+#right ul 
+{
+	list-style: none;
+	padding: 4px;          /* 5  */
+	margin: 0px;
+	display:block;
+	
+}
+
+#right ul li{
+	margin-bottom: 20px;
+	width: 192px;
+}
+
+#right a:link {
+	text-decoration: none;
+    color: #800000;
+    font-weight:bold;
+}
+
+#right a:hover {
+	text-decoration: underline;
+    color: #556B2F;
+    font-weight:bold;
+}
+#right a:visited {
+		text-decoration: none;
+}
+
+#right li a {
+	padding-left: 10px;
+	background: url(images/img09.html) no-repeat 1px 1px;        /* 1px 5 px  */
+}
+
+#categories ul li {
+	margin-bottom: 4px;      /*7 */
+	background: url(images/ulbgtop2.jpg) no-repeat left;
+	padding-left: 7px;
+	height: 18px;          /* 20 */
+}
+
+#categories ul li a{
+
+	font-size: 12px;   /*13    */
+
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+/*
+#partners ul{
+list-style: none;
+padding: 0px;
+}
+
+
+#partners ul li {
+	margin-bottom: 5px;
+	background: url(images/ulbgbot.jpg) no-repeat left;
+	padding-left: 15px;
+	height: 20px;
+}
+
+#partners ul li a{
+	color: #464646;
+	font-size: 12px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+#partners ul li a:hover{
+	color: #9f0000;
+}
+*/
+
+h2 {
+color: #9f0000;
+font-size: 18px;
+padding-top: 0px;
+padding-bottom: 2px;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-style: italic;
+}
+
+h3 {
+color: #990000;
+font-size: 15px;
+line-height: 120%;
+padding-top: 0px;
+padding-bottom: 0px;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-style: normal;
+}
+
+h4 {
+color: #660000;
+font-size: 13px;
+padding-top: 0px;
+padding-bottom: 0px;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-style: normal;
+}
+h4 a:hover{
+color: #333333;
+font-size: 14px;
+}
+
+
+#footer
+{
+	height: 18px;
+	width: 980px;
+	margin: 0 auto;
+	font-size: 11px;
+	color: #FFFF00; /*#FADCB6;  #800000;  */
+	padding-top: 0px;
+	text-align: center;
+    border-top:  #FFFF00 solid 2px;
+    border-bottom:  #FFFF00 solid 2px;
+	clear:both;
+    background: #660000;
+}
+
+#footer a
+{
+color: #000000;
+font-size: 10px;
+text-decoration: none;
+}
+.padding
+{
+padding: 10px;
+color:#FF0000;
+font-weight: bold;
+}
+
+@font-face
+{
+font-family: Segoe;
+font-size: 20pt;
+line-height: 125%;
+font-weight: bold;
+src: url('dokumenty/SegoeP.ttf');
+}
+
+.tab
+{
+outline: 2px solid #996666;
+outline-offset: 5px;
+
+}
+

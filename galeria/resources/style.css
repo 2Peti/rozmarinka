@@ -1,0 +1,85 @@
+body {
+	background-color:#E0E0E0;
+	margin:0px;
+	padding:12px;
+}
+
+table,img {
+	border-width:0px;
+}
+
+img.layout {
+	display:block;
+}
+
+.centered {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+}
+
+.photoDescription,.slideshowDescription,.footer,.navigation,.subalbumDescription,.albumDescription {
+	font-family:'Lucida Grande',Verdana,Helvetica,sans-serif;
+	color:#606060;
+}
+
+.albumTitle,.subalbumTitle,.subalbumLink,.slideshowTitle {
+	font-family:'Trebuchet MS','Lucida Grande',Arial,Helvetica,sans-serif;
+	color:#505050;
+}
+
+.albumTitle {
+	font-size:34px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.albumDescription {
+	font-size:14px;
+	color:#FFFFFF;
+}
+
+.photoDescription {
+	font-size:11px;
+}
+
+.subalbumTitle {
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.subalbumDescription {
+	font-size:12px;
+	text-align:center;
+}
+
+.slideshowDescription {
+	font-size:12px;
+	text-align:center;
+}
+
+.navigation {
+	font-size:12px;
+}
+
+.footer {
+	font-size:9px;
+	text-align:center;
+	color:#909090;
+}
+
+.subalbumLink {
+	font-size:15px;
+	font-weight:bold;
+}
+
+a:link,a:visited,a:active {
+	text-decoration:none;
+	color:#3060C0;
+}
+
+a:hover {
+	text-decoration:none;
+	color:#A0A0A0;
+}
